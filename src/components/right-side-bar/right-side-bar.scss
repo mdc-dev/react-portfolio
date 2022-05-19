@@ -1,0 +1,22 @@
+.right-container {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    .email {
+        margin-bottom: 1em;
+    }
+
+    .email-container {
+        display: flex;
+        align-items: center;
+        writing-mode: vertical-rl;
+    }
+    .email-container:after {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 16vh;
+        background-color: black;
+    }
+}

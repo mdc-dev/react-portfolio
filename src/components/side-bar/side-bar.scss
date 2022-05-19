@@ -1,0 +1,25 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    .social-icons {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+        
+        li {
+            margin-bottom: 10px;
+        }
+    }
+
+    .social-icons:after {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 25vh;
+        background-color: black;
+    }
+}
