@@ -3,6 +3,7 @@ import Sidebar from './components/side-bar/side-bar';
 import Rightsidebar from './components/right-side-bar/right-side-bar';
 import MainContent from './components/main/main';
 import PageTwo from './components/second-page/second-page';
+import PageThree from './components/third-page/third-page';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <MainContent />
       <PageTwo />
+      <PageThree />
       <Sidebar />
       <Rightsidebar />
     </div>
