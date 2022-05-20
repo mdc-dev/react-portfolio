@@ -1,0 +1,51 @@
+.second-page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+
+    .about-me-container {
+        position: relative;
+        width: 70vw;
+        height: 50vh;
+        padding: 10px;
+        margin: auto;
+        text-align: left;
+        top: 25vh;
+
+        .about-me {
+            height: fit-content;
+            display: inline;
+            font-size: 2em;
+        }
+
+        .about-me::after {
+            content: '';
+            display: block;
+            position: relative;
+            top: -5%;
+            right: -5em;
+            height: 1px;
+            width: 40%;
+        }
+
+        .about-para {
+            width: 60%;
+            height: fit-content;
+            position: relative;
+            font-size: 1.2;
+            padding: 0 5% 20px 0;
+        }
+
+        .photo-place-holder {
+            height: 90%;
+            width: 400px;
+            position: absolute;
+            right: 2%;
+            top: 5%;
+            margin: auto;
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+        }
+    }
+}
