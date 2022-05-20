@@ -4,6 +4,7 @@
     .logo {
         float: left;
         margin: 16px 15px;
+        margin-left: 45px
     }
 
     ul, .hamburger{
@@ -11,6 +12,7 @@
         display: flex;
         justify-content: flex-end;
         list-style: none;
+        margin-right: 45px;
 
         li {
             margin: 0 15px

@@ -1,0 +1,41 @@
+.intro-page {
+    height: 100vh;
+    width: 100vw;
+
+
+    .parent-container {
+        position: relative;
+        width: 70vw;
+        height: fit-content;
+        top: 20vh;
+        margin: auto;
+        display: block;
+        text-align: left;
+
+        .main-container {
+            position: relative;
+            width: 70%
+        }
+
+        .hello {
+            margin-left: 5px;
+            font-size: 1.5em;
+        }
+
+        .name {
+            font-size: 4em;
+            line-height: 60px;
+        }
+        
+        .job {
+            font-size: 4em;
+        }
+
+        .biography {
+            width: 60%;
+            font-size: 1.2em;
+            margin-left: 5px;
+        }
+
+    }
+}
