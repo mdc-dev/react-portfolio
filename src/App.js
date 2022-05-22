@@ -4,6 +4,7 @@ import Rightsidebar from './components/right-side-bar/right-side-bar';
 import MainContent from './components/main/main';
 import PageTwo from './components/second-page/second-page';
 import PageThree from './components/third-page/third-page';
+import PageFour from './components/fourth-page/fourth-page';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <MainContent />
       <PageTwo />
       <PageThree />
+      <PageFour />
       <Sidebar />
       <Rightsidebar />
     </div>

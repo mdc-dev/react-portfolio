@@ -1,0 +1,56 @@
+.card-cont {
+    height: 450px;
+    width: 100%;
+    margin: 30px auto;
+    position: relative;
+    text-align: right;
+
+    .title-cont {
+        line-height: 5px;
+        padding-top: 10px;
+
+        h3 {
+            font-size: 1em;
+        }
+
+        h4 {
+            font-size: 1.5em;
+        }
+    }
+    .project-image {
+        height: 400px;
+        width: 60%;
+        border: 1px black solid;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .project-desc {
+        width: 60%;
+        padding: 10px;
+        text-align: left;
+        position: absolute;
+        right: 0;
+        margin: auto;
+        background-color: rgb(145, 145, 145);
+        font-size: 1.2em;
+    }
+
+    .technologies {
+        position: relative;
+        width: 40%;
+        top: 35%;
+        right: 0;
+        float: right;
+
+        .tech-list {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            padding-right: 0;
+            padding-left: 15px;
+            margin-right: 0;
+        }
+    }
+}
