@@ -6,8 +6,9 @@ function PageTwo() {
         <section className="second-page">
             <div className="about-me-container">
                 <h3 className="about-me">About Me</h3>
-                <p className="about-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, necessitatibus. Veniam in modi recusandae, ipsum voluptatum amet illo quidem, doloremque iste atque, exercitationem deserunt quae! Doloribus ea voluptate vel rerum?</p>
-                <p className="about-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, saepe obcaecati reprehenderit beatae non illo voluptatibus a. Quam eveniet quisquam voluptatem atque vitae, debitis, corporis quas iusto unde esse voluptatibus quia, quos porro quidem expedita architecto fuga deleniti. Consequuntur, ipsa! Fugiat ut asperiores beatae dolorem illo, temporibus voluptatum optio voluptatem dolor? Quibusdam libero modi quos, perspiciatis voluptate non eos voluptatum blanditiis, earum repellendus ea quo animi ipsam unde aliquam odit<br></br> </p>
+                <p className="about-para">Hello, my name is Matthew Courtney and I write code. When the pandemic struck in 2020 I, like most people found myself with an opportunity to learn a new skill. I enrolled almost immedialty in a bootcamp through UNCC and never looked back.<br></br> </p>
+                <p className="about-para">Fast forward to today, I have been working with <span className='boa'>Bank of America</span>  for the past year. I have had an opportunity to learn and grow in one of the largest companies in America. My main focus at the bank has been with the Merchant Services division, building an maintaining the banks application. <br></br></p>
+                <p className="about-para">My passion for coding goes beyond my work for the bank. I find myself continuously coding and learning from any source I can find. Beyond development I have also taken an interest in design. </p>
                 <div className="photo-place-holder">Picture here</div>
             </div>
         </section>

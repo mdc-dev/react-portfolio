@@ -1,7 +1,12 @@
+$dark-text: #b4afab;
+$orange: #f7a059;
+
+
 .container {
     position: fixed;
     bottom: 0;
-    left: 0;
+    left: 5;
+    color: $dark-text;
 
     .social-icons {
         list-style: none;
@@ -12,6 +17,12 @@
         
         li {
             margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        li:hover {
+            color: $orange;
+            transform: translateY(-5px)
         }
     }
 
@@ -19,7 +30,7 @@
         content: '';
         display: block;
         width: 1px;
-        height: 25vh;
-        background-color: black;
+        height: 20vh;
+        background-color: $dark-text;
     }
 }

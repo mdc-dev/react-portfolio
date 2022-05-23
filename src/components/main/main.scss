@@ -1,3 +1,6 @@
+$dark-text: #b4afab;
+$orange: #f7a059;
+
 .intro-page {
     height: 100vh;
     width: 100vw;
@@ -7,7 +10,7 @@
         position: relative;
         width: 70vw;
         height: fit-content;
-        top: 25vh;
+        top: 15vh;
         margin: auto;
         display: block;
         text-align: left;
@@ -18,22 +21,29 @@
 
         .hello {
             margin-left: 5px;
+            font-size: 2em;
+            color: $orange
         }
 
         .name {
-            font-size: 4em;
+            font-size: 5em;
             line-height: 60px;
             margin: 10px 0;
+            color: rgb(243, 243, 243);
         }
         
         .job {
-            font-size: 4em;
+            font-size: 5em;
             margin: 10px 0;
+            // color: rgb(150, 150, 150);
+            color: $dark-text;
         }
 
         .biography {
             width: 60%;
             margin-left: 5px;
+            font-size: 1.5em;
+            color: $dark-text;
         }
 
     }

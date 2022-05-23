@@ -18,6 +18,12 @@ const ProjectCard = () => {
                     <li className="lang">React</li>
                 </ul>
             </div>
+            <div className="project-links">
+                <ul>
+                    <li><i class="fa-brands fa-github"></i></li>
+                    <li></li>
+                </ul>
+            </div>
         </div>
     );
 }

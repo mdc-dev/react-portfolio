@@ -6,9 +6,9 @@ function Sidebar() {
         <div className="container">
             <div className="sm-container">
                <ul className="social-icons">
-                    <li>GH</li>
-                    <li>LI</li>
-                    <li>Email</li>
+                    <li><i class="fa-brands fa-github"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-solid fa-envelope"></i></li>
                 </ul> 
             </div>
             

@@ -1,10 +1,16 @@
+$dark-text: #b4afab;
+$orange: #f7a059;
+
 .right-container {
     position: fixed;
     right: 0;
     bottom: 0;
+    color: $dark-text;
 
     .email {
         margin-bottom: 1em;
+        font-size: 1.2e;
+        margin-left: 4px;
     }
 
     .email-container {
@@ -13,11 +19,17 @@
         writing-mode: vertical-rl;
         padding-right: 40px
     }
+
+    .email-container:hover {
+        color: $orange;
+        transform: translateY(-5px)
+    }
+
     .email-container:after {
         content: '';
         display: block;
         width: 1px;
         height: 16vh;
-        background-color: black;
+        background-color: $dark-text;
     }
 }

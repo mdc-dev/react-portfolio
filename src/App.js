@@ -5,9 +5,11 @@ import MainContent from './components/main/main';
 import PageTwo from './components/second-page/second-page';
 import PageThree from './components/third-page/third-page';
 import PageFour from './components/fourth-page/fourth-page';
+import LastPage from './components/last-page/last-page';
 import './App.css';
 
 function App() {
+  
   return (
     <div className='App'>
       <Navbar />
@@ -15,6 +17,7 @@ function App() {
       <PageTwo />
       <PageThree />
       <PageFour />
+      <LastPage />
       <Sidebar />
       <Rightsidebar />
     </div>
