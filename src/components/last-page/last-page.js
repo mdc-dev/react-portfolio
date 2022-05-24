@@ -3,7 +3,7 @@ import './last-page.scss';
 
 function LastPage() {
     return (
-        <section className="last-page">
+        <section className="last-page" id="contact">
             <div className="contact">
                 <h2>Lets Get In Touch</h2>
                 <div className="message">

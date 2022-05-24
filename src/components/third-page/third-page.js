@@ -23,7 +23,7 @@ function PageThree() {
     }
 
     return (
-        <section className="third-page">
+        <section className="third-page" id="experience">
            <div className="tab-cont">
                <h3 className="experience">Experience</h3>
                <div className="tab">

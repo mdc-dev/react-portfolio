@@ -5,7 +5,7 @@ import ReverseProjectCard from '../reverse-project-card/reverse-card.js';
 
 const PageFour = () => {
     return (
-        <section className="fourth-page">
+        <section className="fourth-page" id="portfolio">
             <div className="work-container">
                 <h3 className="my-work">My Work</h3>
                 <div className="work-cont">

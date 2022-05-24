@@ -3,7 +3,7 @@ import './second-page.scss';
 
 function PageTwo() {
     return (
-        <section className="second-page">
+        <section className="second-page" id="about-me">
             <div className="about-me-container">
                 <h3 className="about-me">About Me</h3>
                 <div className="para-cont">

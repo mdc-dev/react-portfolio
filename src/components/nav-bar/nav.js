@@ -8,10 +8,10 @@ function Navbar() {
         <div className='logo'>Logo</div>
         <div className='hamburger'>|||</div>
         <ul className="nav-items">
-            <li>About Me</li>
-            <li>Experience</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <li><a href="#about-me" alt='about-me'>About Me</a></li>
+            <li><a href="#experience" alt="experience">Experience</a></li>
+            <li><a href="#portfolio" alt="portfolio">Portfolio</a></li>
+            <li><a href="#contact" alt="contact">Contact</a></li>
         </ul>
     </nav>   
     )
