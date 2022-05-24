@@ -10,7 +10,7 @@ $orange: #f7a059;
         position: relative;
         width: 70vw;
         height: fit-content;
-        top: 15vh;
+        top: 20vh;
         margin: auto;
         display: block;
         text-align: left;
@@ -21,19 +21,19 @@ $orange: #f7a059;
 
         .hello {
             margin-left: 5px;
-            font-size: 2em;
+            font-size: 1.5em;
             color: $orange
         }
 
         .name {
-            font-size: 5em;
+            font-size: 4em;
             line-height: 60px;
             margin: 10px 0;
             color: rgb(243, 243, 243);
         }
         
         .job {
-            font-size: 5em;
+            font-size: 4em;
             margin: 10px 0;
             // color: rgb(150, 150, 150);
             color: $dark-text;
@@ -42,7 +42,7 @@ $orange: #f7a059;
         .biography {
             width: 60%;
             margin-left: 5px;
-            font-size: 1.5em;
+            font-size: 1.2em;
             color: $dark-text;
         }
 

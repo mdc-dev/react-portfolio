@@ -2,10 +2,19 @@ body p {
   margin: 0
 }
 
+body, html {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
 .App {
   text-align: center;
   /* background-color: #afcebb; */
   background-color: #3c475c;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
 }
 
 .App-logo {
