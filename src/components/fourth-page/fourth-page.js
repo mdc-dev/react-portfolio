@@ -8,9 +8,12 @@ const PageFour = () => {
         <section className="fourth-page">
             <div className="work-container">
                 <h3 className="my-work">My Work</h3>
+                <div className="work-cont">
                 <ProjectCard />
                 <ReverseProjectCard />
                 <ProjectCard />
+                </div>
+                
             </div>
         </section>
     );

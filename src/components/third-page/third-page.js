@@ -31,12 +31,22 @@ function PageThree() {
                    <button className="tablinks" onClick={(e) => openContent(e, 'boot')}>Boot Camp</button>
                </div>
                <div className="tab-content" id="bank">
-                   <h4>Bank of America</h4>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rem illo laboriosam reiciendis ipsum, ratione neque modi eum doloribus soluta voluptates tempore repellendus beatae qui.</p>
+                   <h4 className='job-title'>UI Developer <span className='hilight'>Bank of America</span></h4>
+                   <p className="dates">April 2021 - Current</p>
+                   <ul className="bullets">
+                       <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas nisi reprehenderit dolorem nam doloribus quo?</li>
+                       <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex iste libero odit atque reprehenderit fuga.</li>
+                       <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, consequuntur. Vitae recusandae enim quisquam blanditiis?</li>
+                   </ul>
                </div>
                <div className="tab-content" id="boot">
-                   <h4>Boot Camp</h4>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rem illo laboriosam reiciendis ipsum, ratione neque modi eum doloribus soluta voluptates tempore repellendus beatae qui.</p>
+               <h4 className='job-title'>Student <span className='hilight'>UNCC Bootcamp</span></h4>
+                   <p className="dates">June 2020 - October 2020</p>
+                   <ul className="bullets">
+                       <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas nisi reprehenderit dolorem nam doloribus quo?</li>
+                       <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex iste libero odit atque reprehenderit fuga.</li>
+                       <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, consequuntur. Vitae recusandae enim quisquam blanditiis?</li>
+                   </ul>
                </div>
            </div>
         </section>

@@ -2,19 +2,24 @@
     display: block;
     overflow: auto;
     width: 100vw;
-    padding-bottom: 25vh;
+    padding-bottom: 10vh;
 
     .work-container {
         width: 70%;
         margin: auto;
         position: relative;
-        top: 25vh;
+        top: 10vh;
         text-align: left;
 
         .my-work {
             height: fit-content;
             display: inline;
-            font-size: 2em;
+            font-size: 3em;
+            color: white;
+        }
+
+        .work-cont {
+            margin-top: 5em;
         }
     }
 } 

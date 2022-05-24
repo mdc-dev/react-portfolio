@@ -15,11 +15,15 @@ $orange: #f7a059;
         text-align: left;
         top: 10vh;
 
+        .para-cont {
+            margin-top: 2em;
+        }
+
         .about-me {
             height: fit-content;
             display: inline;
             font-size: 3em;
-            color: white
+            color: white;
         }
 
         .about-me::after {
