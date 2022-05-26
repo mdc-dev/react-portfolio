@@ -7,6 +7,7 @@ import PageThree from './components/third-page/third-page';
 import PageFour from './components/fourth-page/fourth-page';
 import LastPage from './components/last-page/last-page';
 import './App.css';
+import './App.scss';
 
 function App() {
   

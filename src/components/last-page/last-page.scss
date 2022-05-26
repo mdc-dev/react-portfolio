@@ -1,19 +1,39 @@
+$dark-text: #b4afab;
+$orange: #f7a059;
+
 .last-page {
     height: 100vh;
     width: 100vw;
 
     .contact {
         position: relative;
-        top: 25vh;
+        top: 10vh;
         width: 70vw;
         margin: auto;
+        text-align: left;
 
-        h2 {
+
+        .left {
+            width: 47%;
+            border-right: 1px solid $dark-text;
+            margin-left: 20px;
+            height: 65vh;
+            float: left;
+        }
+
+        .right {
+            width: 47%;
+            float: right;
+        }
+
+        h3 {
             font-size: 3em;
+            color: white;
         }
 
         p {
             font-size: 1.5em;
+            color: $dark-text;
         }
     }
 }

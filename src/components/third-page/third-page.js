@@ -34,18 +34,21 @@ function PageThree() {
                    <h4 className='job-title'>UI Developer <span className='hilight'>Bank of America</span></h4>
                    <p className="dates">April 2021 - Current</p>
                    <ul className="bullets">
-                       <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas nisi reprehenderit dolorem nam doloribus quo?</li>
-                       <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex iste libero odit atque reprehenderit fuga.</li>
-                       <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, consequuntur. Vitae recusandae enim quisquam blanditiis?</li>
+                       <li>Communicate with product managers and UX designers to translate project requirements and business objectives into polished user interfaces.</li>
+                       <li>Improved and expanded project platforms using JavaScript to develop rich User Interfaces.</li>
+                       <li>Collaborated with teammates to deliver valuable features meeting business and customer needs.</li>
+                       <li>Evaluated user research to convert abstract ideas and requirements into planning tools such as journey maps, user personas and storyboards.</li>
                    </ul>
                </div>
                <div className="tab-content" id="boot">
                <h4 className='job-title'>Student <span className='hilight'>UNCC Bootcamp</span></h4>
                    <p className="dates">June 2020 - October 2020</p>
                    <ul className="bullets">
-                       <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas nisi reprehenderit dolorem nam doloribus quo?</li>
-                       <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex iste libero odit atque reprehenderit fuga.</li>
-                       <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, consequuntur. Vitae recusandae enim quisquam blanditiis?</li>
+                       <li>Followed bootcamp policies, regulations and schedules.</li>
+                       <li>Developed basic skills in multiple front end and back end based technologies.</li>
+                       <li>Led multiple group based projects throughout the bootcamp.</li>
+                       <li>Worked in team environment to maintain high levels of productivity.</li>
+                       <li>Maintained an A average and continued to code every day after the camp.</li>
                    </ul>
                </div>
            </div>

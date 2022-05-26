@@ -1,0 +1,15 @@
+$orange: #f7a059;
+
+
+.App {
+    counter-set: section-counter;
+
+    section {
+        h3:before {
+            content: counter(section-counter, decimal-leading-zero) '.';
+            counter-increment: section-counter;
+            margin-right: 10px;
+            color: $orange;
+        }
+    }
+}

@@ -12,6 +12,8 @@ $orange: #f7a059;
         font-weight: bolder;
     }
 
+    counter-set: nav-counter;
+
     ul, .hamburger{
         float: right;
         display: flex;
@@ -21,6 +23,7 @@ $orange: #f7a059;
 
         li {
             margin: 0 15px;
+            font-weight: bold;
             color: $dark-text;
 
             a {
@@ -30,6 +33,13 @@ $orange: #f7a059;
         }
 
         li:hover {
+            color: $orange;
+        }
+
+        li:before {
+            content: counter(nav-counter, decimal-leading-zero) '.';
+            counter-increment: nav-counter;
+            margin-right: 4px;
             color: $orange;
         }
     }

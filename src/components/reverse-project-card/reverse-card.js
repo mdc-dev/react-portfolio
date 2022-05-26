@@ -5,8 +5,8 @@ const ReverseProjectCard = () => {
     return (
         <div className="reverse-card-cont">
             <div className="reverse-title-cont">
-                <h3>Featured Project</h3>
-                <h4>Project Title</h4>
+                <h4>Featured Project</h4>
+                <h5>Project Title</h5>
             </div>
             <div className="reverse-project-image">IMAGE</div>
             <div className="reverse-project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nisi sed dolore ullam perspiciatis optio earum vero non aspernatur alias consequatur, nam accusamus consectetur doloribus culpa, vitae pariatur odit maxime!</div>

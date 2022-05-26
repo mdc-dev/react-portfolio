@@ -5,8 +5,8 @@ const ProjectCard = () => {
     return (
         <div className="card-cont">
             <div className="title-cont">
-                <h3>Featured Project</h3>
-                <h4>Project Title</h4>
+                <h4>Featured Project</h4>
+                <h5>Project Title</h5>
             </div>
             <div className="project-image">IMAGE</div>
             <div className="project-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nisi sed dolore ullam perspiciatis optio earum vero non aspernatur alias consequatur, nam accusamus consectetur doloribus culpa, vitae pariatur odit maxime!</div>
@@ -20,7 +20,7 @@ const ProjectCard = () => {
             </div>
             <div className="project-links">
                 <ul>
-                    <li><i class="fa-brands fa-github"></i></li>
+                    <li><i className="fa-brands fa-github"></i></li>
                     <li></li>
                 </ul>
             </div>
