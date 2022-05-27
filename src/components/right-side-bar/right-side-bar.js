@@ -5,7 +5,7 @@ function Rightsidebar() {
     return (
         <div className="right-container">
             <div className="email-container">
-                <p className="email">mcourtdev@gmail.com</p>
+            <a href='mailto: mcourtdev@gmail.com'><p className="email">mcourtdev@gmail.com</p></a>
             </div>
         </div>
     )

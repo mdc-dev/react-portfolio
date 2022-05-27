@@ -24,6 +24,11 @@ $orange: #f7a059;
             color: $orange;
             transform: translateY(-5px)
         }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
     }
 
     .social-icons:after {

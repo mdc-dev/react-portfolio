@@ -32,4 +32,9 @@ $orange: #f7a059;
         height: 16vh;
         background-color: $dark-text;
     }
+
+    a {
+        text-decoration: none;
+        color: inherit
+    }
 }
