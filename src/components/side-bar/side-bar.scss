@@ -38,4 +38,10 @@ $orange: #f7a059;
         height: 20vh;
         background-color: $dark-text;
     }
+
+    @media only screen and (min-width: 1380px) {
+        .social-icons li {
+            font-size: 2em;
+        }
+    }
 }
