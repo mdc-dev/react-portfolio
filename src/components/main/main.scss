@@ -64,4 +64,41 @@ $orange: #f7a059;
             }
         }
     }
+
+    @media only screen and (max-width: 400px) {
+        .parent-container {
+            width: 100%;
+            padding: 0 30px;
+
+            .hello { 
+                font-size: 1.2em;
+                position: absolute;
+                margin-left: 0;
+            }
+
+            .name, .job {
+                width: 90%;
+                font-size: 2.2em;
+                position: absolute;
+            }
+
+            .name {
+                line-height: normal;
+                margin-top: 30px;
+            }
+
+            .job {
+                top: 70px
+            }
+
+            .biography {
+                width: 80%;
+                font-size: 1.1em;
+                position: absolute;
+                top: 185px;
+                padding-right: 30px;
+                line-height: 1.5em;
+            }
+        }
+    }
 }

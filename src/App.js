@@ -6,6 +6,7 @@ import PageTwo from './components/second-page/second-page';
 import PageThree from './components/third-page/third-page';
 import PageFour from './components/fourth-page/fourth-page';
 import LastPage from './components/last-page/last-page';
+import Sidenavbar from './components/nav-side-bar/nav-side-bar';
 import './App.css';
 import './App.scss';
 
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className='App'>
       <Navbar />
+      <Sidenavbar />
       <MainContent />
       <PageTwo />
       <PageThree />

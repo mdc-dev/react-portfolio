@@ -1,12 +1,12 @@
 import React from 'react';
-import './nav.scss';
-import './nav.css';
+import './nav-side-bar.scss';
 
-function Navbar() {
+function Sidenavbar() {
     return (
-    <nav className='nav-bar'>
-        <div className='logo'>Logo</div>
-        <div className='hamburger'><i class="fa-solid fa-bars"></i></div>
+    <nav className='nav-side-bar hide'>
+        <div className="exit">
+            <p>x</p>
+        </div>
         <ul className="nav-items">
             <li><a href="#about-me" alt='about-me'>About Me</a></li>
             <li><a href="#experience" alt="experience">Experience</a></li>
@@ -18,4 +18,4 @@ function Navbar() {
 }
 
 
-export default Navbar;
+export default Sidenavbar;

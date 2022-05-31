@@ -1,0 +1,52 @@
+$dark-text: #b4afab;
+$orange: #f7a059;
+
+.nav-side-bar {
+    background-color: yellow;
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    right: 0;
+    z-index: 1000;
+
+    .exit {
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        color: $orange;
+        font-weight: bolder;
+    }
+
+    .nav-items {
+        list-style: none;
+        height: 70%;
+        margin: auto;
+        font-size: 1.5em;
+        padding-left: 0;
+    }
+
+    li {
+        margin: 40px 15px;
+        font-weight: bold;
+        color: $dark-text;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+    li:hover {
+        color: $orange;
+    }
+
+    li:before {
+        content: counter(nav-counter, decimal-leading-zero) '.';
+        counter-increment: nav-counter;
+        margin-right: 4px;
+        color: $orange;
+    }
+}
