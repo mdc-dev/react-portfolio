@@ -7,6 +7,7 @@ $div-back: #576786;
     position: relative;
     height: 100vh;
     justify-content: center;
+
     .tab-cont {
         position: relative;
         width: 70vw;
@@ -98,11 +99,99 @@ $div-back: #576786;
         #boot {
             display: none;
         }
+    };
 
-        @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 600px) {
+
+        .tab-cont {
+            position: relative;
+            width: 90vw;
+            height: 25vh;
+            margin: 0 30px;
+    
             .experience {
-                font-size: 2em;
+                font-size: 2em !important;
+                margin-bottom: 1em;
+            }
+    
+            .tab {
+                display: inline-flex;
+                // border: 1px solid #ccc;
+                width: 90%;
+                height: 75px;
+                margin: 0 auto;
+            }
+    
+            .tab button {
+                display: block;
+                background-color: inherit;
+                color: $dark-text;
+                font-size: 1em;
+                padding: 0px 16px;
+                width: 100%;
+                border: none;
+                border-left: none;
+                border-top: solid 3px $dark-text;
+                outline: none;
+                text-align: center;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+    
+            .tab button.active {
+                border-top: solid 5px $orange;
+                border-left: none;
+                color: $orange;
+                background-color: $div-back;
+            }
+    
+            .tab-content {
+                float: none;
+                padding: 0px;
+                // border: 1px solid #ccc;
+                width: 90%;
+                border-left: none;
+                margin: 0;
+                margin-left: 5px;
+                height: 300px;
+    
+                .job-title {
+                    font-size: 1.3em;
+                    margin: 140px 0 5px;
+                    color: white;
+    
+                    .hilight {
+                        color: $orange;
+                    }
+                }
+    
+                .dates {
+                    color: $dark-text;
+                    font-size: 1em;
+                    margin-bottom: 20px;
+                }
+    
+                .bullets {
+                    color: $dark-text;
+                    font-size: 1.1em;
+    
+                    li {
+                         margin: 15px 0;
+                         padding-right: 20px;
+                         list-style: none;
+                    }
+    
+                    li::before {
+                        content: '\25B2';
+                        display: inline-block;
+                        margin-right: 1em;
+                        margin-left: -2em;
+                        font-size: 20px;
+                        color: $orange;
+                    }
+                }
             }
         }
-    };
+    }
 }
+
