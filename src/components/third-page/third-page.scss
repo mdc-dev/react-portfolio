@@ -98,9 +98,11 @@ $div-back: #576786;
         #boot {
             display: none;
         }
-    };
 
-    @media only screen and (min-width: 1380px) {
-        
-    }
+        @media only screen and (max-width: 600px) {
+            .experience {
+                font-size: 2em;
+            }
+        }
+    };
 }
