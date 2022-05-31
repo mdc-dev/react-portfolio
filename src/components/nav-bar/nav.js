@@ -3,10 +3,16 @@ import './nav.scss';
 import './nav.css';
 
 function Navbar() {
+
+    const toggleSideNav = () => {
+        console.log('Hamburger Clicked');
+        document.querySelector('.nav-side-bar').classList.remove('hide');
+    }
+
     return (
     <nav className='nav-bar'>
         <div className='logo'>Logo</div>
-        <div className='hamburger'><i class="fa-solid fa-bars"></i></div>
+        <div className='hamburger'><i className="fa-solid fa-bars" onClick={() => toggleSideNav()}></i></div>
         <ul className="nav-items">
             <li><a href="#about-me" alt='about-me'>About Me</a></li>
             <li><a href="#experience" alt="experience">Experience</a></li>
