@@ -21,7 +21,7 @@ const ProjectCard = () => {
             <div className="project-links">
                 <ul>
                     <li><i className="fa-brands fa-github"></i></li>
-                    <li></li>
+                    <li><i className="fa-solid fa-up-right-from-square size-down"></i></li>
                 </ul>
             </div>
         </div>

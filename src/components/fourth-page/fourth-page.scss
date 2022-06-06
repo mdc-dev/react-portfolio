@@ -1,6 +1,6 @@
 .fourth-page {
     display: block;
-    overflow: auto;
+    overflow: visable;
     width: 100vw;
     padding-bottom: 10vh;
 
@@ -20,6 +20,18 @@
 
         .work-cont {
             margin-top: 5em;
+        }
+    }
+
+
+    @media only screen and (max-width: 600px) {
+
+        .work-container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .my-work {
+            font-size: 2em !important;
         }
     }
 } 

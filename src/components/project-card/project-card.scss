@@ -68,4 +68,86 @@ $div-back: #576786;
     .project-links li {
         color: white;
     }
+
+    @media only screen and (max-width: 600px) {
+        text-align: left;
+        padding: 10px 10px 10px 0;
+        margin: 20px auto;
+        background-color: $div-back;
+        
+        .project-desc {
+            width: 90%;
+            margin-left: 0;
+            margin-top: 50px;
+            padding: 0;
+            padding-left: 20px;
+            font-size: 1.1em;
+            line-height: 1.4em;
+            position: relative;
+            background-color: rgba(255, 255, 0, 0);
+        }
+
+        .work-cont {
+            margin-top: 3em;
+        }
+        
+        .title-cont {
+            line-height: 5px;
+            padding-top: 10px;
+            padding-left: 20px;
+    
+            h4 {
+                font-size: 1em;
+            }
+    
+            h5 {
+                font-size: 1.9em;
+                margin: 30px 0 20px;
+            }
+        }
+
+        .project-image {
+            display: none;
+        }
+        
+        .technologies {
+            position: none;
+            width: 100%;
+            top: 0;
+            left: 0;
+            right: auto;
+            float: none;
+            font-size: 12px;
+
+            .tech-list {
+                float: left;
+                padding-left: 0;
+
+                .lang { 
+                    padding-left: 20px;
+                }
+            }
+        }
+
+        .project-links {
+             ul {
+                 margin-left: 0;
+                 position: absolute;
+                 bottom: 0;
+                 font-size: 1.8em;
+                 list-style: none;
+                 padding-left: 25px;
+                 
+                 li {
+                     float: left;
+                     padding-right: 20px;
+                     color: $orange;
+                 }
+
+                 .size-down {
+                     font-size: .9em;
+                 }
+             }   
+        }
+    }
 }

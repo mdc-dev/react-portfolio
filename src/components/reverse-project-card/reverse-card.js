@@ -18,6 +18,12 @@ const ReverseProjectCard = () => {
                     <li className="reverse-lang">React</li>
                 </ul>
             </div>
+            <div className="reverse-project-links">
+                <ul>
+                    <li><i className="fa-brands fa-github"></i></li>
+                    <li><i className="fa-solid fa-up-right-from-square size-down"></i></li>
+                </ul>
+            </div>
         </div>
     );
 }
