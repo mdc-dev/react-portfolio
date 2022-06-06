@@ -1,5 +1,8 @@
 $dark-text: #b4afab;
 $orange: #f7a059;
+$tech-text: 'Share Tech', sans-serif;
+$bold-text: 'Roboto', sans-serif;
+
 
 .right-container {
     position: fixed;
@@ -11,6 +14,7 @@ $orange: #f7a059;
         margin-bottom: 1em;
         font-size: 1.2em;
         margin-left: 4px;
+        font-family: $tech-text;
     }
 
     .email-container {

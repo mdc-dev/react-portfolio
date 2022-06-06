@@ -1,5 +1,7 @@
 $dark-text: #b4afab;
 $orange: #f7a059;
+$tech-text: 'Share Tech', sans-serif;
+$bold-text: 'Roboto', sans-serif;
 
 .intro-page {
     height: 100vh;
@@ -22,14 +24,17 @@ $orange: #f7a059;
         .hello {
             margin-left: 5px;
             font-size: 1.5em;
-            color: $orange
+            color: $orange;
+            font-family: $tech-text;
         }
 
         .name {
             font-size: 3.9em;
             line-height: 60px;
-            margin: 10px 0;
+            margin: 10px 0 0 0;
             color: rgb(243, 243, 243);
+            font-family: $bold-text;
+            font-weight: 900;
         }
         
         .job {
@@ -37,6 +42,8 @@ $orange: #f7a059;
             margin: 10px 0;
             // color: rgb(150, 150, 150);
             color: $dark-text;
+            font-family: $bold-text;
+            font-weight: 900;
         }
 
         .biography {
@@ -44,6 +51,8 @@ $orange: #f7a059;
             margin-left: 5px;
             font-size: 1.2em;
             color: $dark-text;
+            font-family: $bold-text;
+            font-weight: 400;
         }
 
     }
@@ -56,7 +65,7 @@ $orange: #f7a059;
             }
 
             .name, .job {
-                font-size: 5em;
+                font-size: 4.6em;
             }
 
             .biography {

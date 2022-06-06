@@ -1,6 +1,9 @@
 $dark-text: #b4afab;
 $orange: #f7a059;
 $div-back: #576786;
+$tech-text: 'Share Tech', sans-serif;
+$bold-text: 'Roboto', sans-serif;
+
 
 .card-cont {
     height: 450px;
@@ -16,12 +19,15 @@ $div-back: #576786;
         h4 {
             font-size: 1em;
             color: $orange;
+            font-family: $tech-text;
         }
 
         h5 {
             font-size: 2em;
             margin: 30px 0 50px;
             color: white;
+            font-family: $bold-text;
+            font-weight: 900;
         }
     }
     .project-image {
@@ -43,6 +49,8 @@ $div-back: #576786;
         color: $dark-text;
         font-size: 1.2em;
         padding: 20px;
+        font-family: $bold-text;
+        font-weight: 400;
     }
 
     .technologies {
@@ -62,6 +70,7 @@ $div-back: #576786;
             width: 70%;
             font-size: 1.2em;
             color: $dark-text;
+            font-family: $tech-text;
         }
     }
 

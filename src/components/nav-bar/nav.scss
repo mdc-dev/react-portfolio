@@ -1,5 +1,8 @@
 $dark-text: #b4afab;
 $orange: #f7a059;
+$tech-text: 'Share Tech', sans-serif;
+$bold-text: 'Roboto', sans-serif;
+
 
 .nav-bar {
     position: inline-flex;
@@ -25,6 +28,7 @@ $orange: #f7a059;
             margin: 0 15px;
             font-weight: bold;
             color: $dark-text;
+            font-family: $tech-text;
 
             a {
                 text-decoration: none;

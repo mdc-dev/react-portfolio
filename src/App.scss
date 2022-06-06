@@ -1,4 +1,6 @@
 $orange: #f7a059;
+$tech-text: 'Share Tech', sans-serif;
+
 
 
 .App {
@@ -10,6 +12,7 @@ $orange: #f7a059;
             counter-increment: section-counter;
             margin-right: 10px;
             color: $orange;
+            font-family: $tech-text;
         }
     }
 

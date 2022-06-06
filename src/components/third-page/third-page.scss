@@ -1,6 +1,9 @@
 $dark-text: #b4afab;
 $orange: #f7a059;
 $div-back: #576786;
+$tech-text: 'Share Tech', sans-serif;
+$bold-text: 'Roboto', sans-serif;
+
 
 
 .third-page {
@@ -21,7 +24,9 @@ $div-back: #576786;
         .experience {
             font-size: 3em;
             color: white;
-            margin-bottom: 2em;
+            margin-bottom: 1em;
+            font-family: $bold-text;
+            font-weight: 900;
         }
 
         .tab {
@@ -44,6 +49,7 @@ $div-back: #576786;
             text-align: center;
             cursor: pointer;
             transition: 0.3s;
+            font-family: $tech-text;
         }
 
         .tab button.active {
@@ -64,6 +70,8 @@ $div-back: #576786;
                 font-size: 1.5em;
                 margin: 10px 0 5px;
                 color: white;
+                font-family: $bold-text;
+                font-weight: 900;
 
                 .hilight {
                     color: $orange;
@@ -74,11 +82,14 @@ $div-back: #576786;
                 color: $dark-text;
                 font-size: 1em;
                 margin-bottom: 20px;
+                font-family: $tech-text;
             }
 
             .bullets {
                 color: $dark-text;
                 font-size: 1.2em;
+                font-family: $bold-text;
+                font-weight: 400;
 
                 li {
                      margin: 15px 0;
