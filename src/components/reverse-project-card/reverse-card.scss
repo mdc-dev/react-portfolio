@@ -120,8 +120,9 @@ $div-back: #576786;
             font-size: 12px;
 
             .reverse-tech-list {
-                float: left;
+                float: none;
                 padding-left: 0;
+                margin-left: 20px;
 
                 .reverse-lang { 
                     padding-left: 20px;
@@ -142,6 +143,7 @@ $div-back: #576786;
                      float: left;
                      padding-right: 20px;
                      color: $orange;
+                     text-decoration: none;
                  }
 
                  .size-down {
