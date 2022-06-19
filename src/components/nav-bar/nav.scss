@@ -10,10 +10,15 @@ $bold-text: 'Roboto', sans-serif;
 
     .logo {
         float: left;
-        margin: 16px 15px;
+        margin: 6px 15px;
         margin-left: 50px;
         color: $orange;
         font-weight: bolder;
+
+        img {
+            height: 45px;
+
+        }
     }
 
     counter-set: nav-counter;
@@ -83,11 +88,15 @@ $bold-text: 'Roboto', sans-serif;
             margin-right: 30px;
             color: $orange;
             font-size: 1.5em;
-            padding-top: 20px;
+            padding-top: 25px;
         }
 
         .logo {
             margin-left: 30px;
+
+            img {
+                margin-top: 8px;
+            }
         }
     }
 

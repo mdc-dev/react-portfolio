@@ -54,6 +54,10 @@ $bold-text: 'Roboto', sans-serif;
             color: $dark-text;
             font-family: $bold-text;
             font-weight: 400;
+
+            .orange {
+                color: $orange;
+            }
         }
 
     }

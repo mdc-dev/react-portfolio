@@ -27,7 +27,7 @@ const PageFour = () => {
             name: 'Pokedex 2.0',
             id: 3,
             img: '../../assets/pokedex.JPG',
-            description: 'This was a project I worked on with a group for my bootcamp. In my efforts to refine my skills post bootcamp, I decided to rebuild this project. Instead of just having a simple Pokedex I decided to create a kind of game where users could earn xP and badges by completing quizzes which allow the user to get better pokemon.',
+            description: 'In my efforts to refine my skills post bootcamp, I decided to rebuild this group project by myself. Instead of just having a simple Pokedex I decided to create a kind of game where users could earn xP and badges by completing quizzes which allow the user to get better pokemon.',
             languages: ['Javascript', 'HTML', "CSS", "mySql"],
             github: 'https://github.com/sharkattack182/pokedex2.0',
             deployed: 'https://pokedex-part-deux.herokuapp.com/',

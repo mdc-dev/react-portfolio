@@ -1,6 +1,7 @@
 import React from 'react';
 import './nav.scss';
 import './nav.css';
+import DevLogo from '../../assets/mdc-dev.png'
 
 function Navbar() {
 
@@ -13,7 +14,7 @@ function Navbar() {
 
     return (
     <nav className='nav-bar'>
-        <div className='logo'>Logo</div>
+        <div className='logo'><img src={DevLogo} alt="logo" /></div>
         <div className='hamburger'><i className="fa-solid fa-bars" onClick={() => toggleSideNav()}></i></div>
         <ul className="nav-items">
             <li><a href="#about-me" alt='about-me'>About Me</a></li>
