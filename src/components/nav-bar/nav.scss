@@ -6,6 +6,7 @@ $bold-text: 'Roboto', sans-serif;
 
 .nav-bar {
     position: inline-flex;
+    padding-top: 10px;
 
     .logo {
         float: left;
@@ -46,6 +47,23 @@ $bold-text: 'Roboto', sans-serif;
             margin-right: 4px;
             color: $orange;
         }
+
+        
+        .resume-button { 
+            padding: 5px 8px;
+            font-weight: normal;
+            border-radius: 2px;
+            font-size: 1em;
+            top: -7px;
+            position: relative;
+            color: $orange;
+             border: solid 2px $orange;
+        }
+
+        .resume-button:before {
+            display: none;
+        }
+
     }
 
     .hamburger {
@@ -53,6 +71,8 @@ $bold-text: 'Roboto', sans-serif;
     }
 
     @media only screen and (max-width: 600px) {
+        padding-top: 0;
+        
         ul {
             display: none;
         }

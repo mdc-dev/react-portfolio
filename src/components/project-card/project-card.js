@@ -9,7 +9,9 @@ const ProjectCard = (props) => {
                 <h4>Featured Project</h4>
                 <h5>{props.cardData.name}</h5>
             </div>
-            <div className="project-image">IMAGE</div>
+            <div className={`project-image project-${props.cardData.id}`}>
+                <div className="filter"></div>
+            </div>
             <div className="project-desc">{props.cardData.description}</div>
             <div className="technologies">
                 <ul className="tech-list">

@@ -28,10 +28,19 @@ $div-back: #576786;
     .reverse-project-image {
         height: 400px;
         width: 60%;
-        border: 1px black solid;
+        background:url(../../assets/quiz.JPG);
+        background-size: 100% 100%;
+        border-radius: 10px;
         position: absolute;
         top: 0;
         right: 0;
+
+        .filter {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            background-color: #f7a059ea;
+        }
     }
 
     .reverse-project-desc {
@@ -43,6 +52,7 @@ $div-back: #576786;
         margin: auto;
         background-color: $div-back;
         color: $dark-text;
+        border-radius: 5px;
         font-size: 1.2em;
         padding: 20px;
     }
@@ -69,9 +79,41 @@ $div-back: #576786;
         }
     }
 
+    .reverse-project-links {
+       display: inline-flex;
+       position: relative;
+       left: -380px;
+       bottom: -200px;
+       width: 300px;
+
+       ul {
+            display: inline-flex; 
+            align-content: space-between;
+            text-decoration: none;
+            list-style: none;
+            padding-left: 0;
+
+            li {
+                font-size: 1.5em;
+                color: $dark-text;
+                margin-left: 0;
+                margin-right: 30px;
+
+                a {
+                    color: inherit
+                }
+            }
+
+            li:hover {
+                color: $orange;
+            }
+
+       }
+    }
+
     @media only screen and (max-width: 600px) {
         text-align: left;
-        padding: 10px 10px 10px 0;
+        padding: 10px 10px 50px 0;
         margin: 20px auto;
         background-color: $div-back;
         
@@ -131,19 +173,33 @@ $div-back: #576786;
         }
 
         .reverse-project-links {
+            left: -45px; 
+            bottom: 0;
+
              ul {
                  margin-left: 0;
                  position: absolute;
-                 bottom: 0;
+                 bottom: -70px;
+                 left: 45px;
                  font-size: 1.8em;
                  list-style: none;
                  padding-left: 25px;
+                 padding-bottom: 10px;
                  
                  li {
                      float: left;
-                     padding-right: 20px;
                      color: $orange;
                      text-decoration: none;
+                     font-size: 1em;
+                     padding-right: 0px;
+
+                     a {
+                        color: $dark-text;
+                     }
+                     
+                     a:hover {
+                        color: $orange;
+                     }
                  }
 
                  .size-down {

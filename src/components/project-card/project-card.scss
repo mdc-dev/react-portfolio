@@ -33,10 +33,27 @@ $bold-text: 'Roboto', sans-serif;
     .project-image {
         height: 400px;
         width: 60%;
-        border: 1px black solid;
+        border-radius: 10px;
         position: absolute;
         top: 0;
         left: 0;
+
+        .filter {
+            height: 100%;
+            width: 100%;
+            border-radius: 10px;
+            background-color: #f7a059ea;
+        }
+    }
+
+    .project-1 {
+        background-image: url('../../assets/wordle.JPG');
+        background-size: 100%;
+    }
+
+    .project-3 {
+        background-image: url('../../assets/pokedex.JPG');
+        background-size: 100% 100%;
     }
 
     .project-desc {
@@ -51,6 +68,7 @@ $bold-text: 'Roboto', sans-serif;
         padding: 20px;
         font-family: $bold-text;
         font-weight: 400;
+        border-radius: 5px;
     }
 
     .technologies {
@@ -74,8 +92,30 @@ $bold-text: 'Roboto', sans-serif;
         }
     }
 
-    .project-links li {
+    .project-links {
         color: white;
+        right: 0px;
+        bottom: 70px;
+        text-decoration: none;
+        align-content: space-between;
+        position: absolute;
+        width: 200px;
+        
+        li {
+            list-style: none;
+            display: inline-flex;
+            color: white;
+            margin-left: 30px;
+            font-size: 1.5em;
+        }
+
+        .fa-brands, .fa-solid {
+            color: $dark-text
+        }
+
+        .fa-brands:hover, .fa-solid:hover {
+            color: $orange
+        }
     }
 
     @media only screen and (max-width: 600px) {
@@ -139,18 +179,21 @@ $bold-text: 'Roboto', sans-serif;
         }
 
         .project-links {
+            left: -45px;
+
              ul {
                  margin-left: 0;
-                 position: absolute;
-                 bottom: 0;
+                 position: relative;
+                 bottom: -35px;
                  font-size: 1.8em;
                  list-style: none;
-                 padding-left: 25px;
                  
                  li {
                      float: left;
                      padding-right: 20px;
                      color: $orange;
+                     padding-right: 0;
+                     font-size: 1em;
                  }
 
                  .size-down {

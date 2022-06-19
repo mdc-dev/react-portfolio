@@ -6,7 +6,9 @@ function Navbar() {
 
     const toggleSideNav = () => {
         console.log('Hamburger Clicked');
+        document.querySelector('.nav-content').classList.add('nav-content-slide')
         document.querySelector('.nav-side-bar').classList.remove('hide');
+        
     }
 
     return (
@@ -18,6 +20,7 @@ function Navbar() {
             <li><a href="#experience" alt="experience">Experience</a></li>
             <li><a href="#portfolio" alt="portfolio">Portfolio</a></li>
             <li><a href="#contact" alt="contact">Contact</a></li>
+            <li className='resume-button'>Resume</li>
         </ul>
     </nav>   
     )

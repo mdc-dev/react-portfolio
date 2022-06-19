@@ -8,7 +8,9 @@ const ReverseProjectCard = (props) => {
                 <h4>Featured Project</h4>
                 <h5>{props.cardData.name}</h5>
             </div>
-            <div className="reverse-project-image">IMAGE</div>
+            <div className="reverse-project-image">
+                <div className="filter"></div>
+            </div>
             <div className="reverse-project-desc">{props.cardData.description}</div>
             <div className="reverse-technologies">
                 <ul className="reverse-tech-list">
