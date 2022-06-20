@@ -21,7 +21,7 @@ function Navbar() {
             <li><a href="#experience" alt="experience">Experience</a></li>
             <li><a href="#portfolio" alt="portfolio">Portfolio</a></li>
             <li><a href="#contact" alt="contact">Contact</a></li>
-            <li className='resume-button'>Resume</li>
+            <a href="https://docs.google.com/document/d/17opt3I8CcLb9RlvjImX0rZh_OCu8VfmVmiucvmh_AFQ/edit?usp=sharinghttps://docs.google.com/document/d/17opt3I8CcLb9RlvjImX0rZh_OCu8VfmVmiucvmh_AFQ/edit?usp=sharing" target='_blank' rel='noreferrer'><li className='resume-button'>Resume</li></a>
         </ul>
     </nav>   
     )

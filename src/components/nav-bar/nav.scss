@@ -2,6 +2,7 @@ $dark-text: #b4afab;
 $orange: #f7a059;
 $tech-text: 'Share Tech', sans-serif;
 $bold-text: 'Roboto', sans-serif;
+$background: #3c475c;
 
 
 .nav-bar {
@@ -53,7 +54,8 @@ $bold-text: 'Roboto', sans-serif;
             color: $orange;
         }
 
-        
+       a {
+        text-decoration: none;
         .resume-button { 
             padding: 5px 8px;
             font-weight: normal;
@@ -68,6 +70,13 @@ $bold-text: 'Roboto', sans-serif;
         .resume-button:before {
             display: none;
         }
+
+        .resume-button:hover {
+            color: $background;
+            background-color: #f7a059;
+        }
+    }
+
 
     }
 

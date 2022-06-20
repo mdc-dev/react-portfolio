@@ -9,7 +9,7 @@ const PageFour = () => {
           name: 'Wordle',
           id: 1,
           img: '../../assets/quiz.JPG',
-          description: 'If you are like me you hate waiting for the next days wordle. So I decided to create my own that does not require you to wait. It utilizes state as well as local storage. I wrote this using my own logic and understanding of the game. No tutorials or templates just good old fashioned logic and JavaScript.',
+          description: 'If you are like me you hate waiting for the next days wordle. So I decided to create my own that does not require you to wait. It utilizes state as well as local storage. I wrote this using my own logic and understanding of the game. No tutorials or templates were used.',
           languages: ['React', 'HTML', "Sass", "JavaScript"],
           github: 'https://github.com/mdc-dev/mdc-wordle',
           deployed: 'https://mdc-wordle.herokuapp.com/',

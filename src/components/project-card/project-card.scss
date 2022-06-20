@@ -43,6 +43,11 @@ $bold-text: 'Roboto', sans-serif;
             width: 100%;
             border-radius: 10px;
             background-color: #f7a059ea;
+            transition: opacity 1s ease-in;
+        }
+
+        .filter:hover {
+            opacity: 0;
         }
     }
 

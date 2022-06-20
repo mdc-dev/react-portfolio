@@ -9,6 +9,7 @@ $bold-text: 'Roboto', sans-serif;
 .third-page {
     position: relative;
     height: 100vh;
+    min-height: fit-content;
     justify-content: center;
 
     .tab-cont {
@@ -113,7 +114,8 @@ $bold-text: 'Roboto', sans-serif;
     };
 
     @media only screen and (max-width: 600px) {
-
+        margin-bottom: 150px;
+        margin-top: 150px;
         .tab-cont {
             position: relative;
             width: 90vw;

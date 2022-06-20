@@ -50,8 +50,8 @@ function LastPage() {
 
         <div className="right">
           <h5><i class="fa-solid fa-phone"></i><a href="tel:607-206-4901"> 607-206-4901</a></h5>
-          <h5><i class="fa-brands fa-github"></i><a href="https://github.com/mdc-dev"> GitHub</a></h5>
-          <h5><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/matthew-courtney-2854811b5/"> LinkedIn</a></h5>
+          <h5><i class="fa-brands fa-github"></i><a href="https://github.com/mdc-dev" target='_blank' rel='noreferrer'> GitHub</a></h5>
+          <h5><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/matthew-courtney-2854811b5/" target='_blank' rel='noreferrer'> LinkedIn</a></h5>
         </div>
       </div>
       {modal ? <EmailModal toggleModal={toggleCloseModal} /> : null}
