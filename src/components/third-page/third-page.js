@@ -24,7 +24,12 @@ function PageThree() {
 
     return (
         <section className="third-page" id="experience">
-           <div className="tab-cont">
+           <div className="tab-cont"                 data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-once="true"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out">
                <h3 className="experience">Experience</h3>
                <div className="tab">
                    <button className="tablinks active" onClick={(e) => openContent(e, 'bank')}>Bank of America</button>

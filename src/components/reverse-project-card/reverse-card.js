@@ -3,7 +3,13 @@ import './reverse-card.scss';
 
 const ReverseProjectCard = (props) => {
     return (
-        <div className="reverse-card-cont">
+        <div className="reverse-card-cont"                 
+        data-aos="fade-right"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-once="true"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
             <div className="reverse-title-cont">
                 <h4>Featured Project</h4>
                 <h5>{props.cardData.name}</h5>

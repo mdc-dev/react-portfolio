@@ -36,7 +36,13 @@ const PageFour = () => {
     return (
         <section className="fourth-page" id="portfolio">
             <div className="work-container">
-                <h3 className="my-work">My Work</h3>
+                <h3 className="my-work"                 
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-once="true"
+                data-aos-duration="50"
+                data-aos-easing="ease-in-out">My Work</h3>
                 <div className="work-cont">
                 <ProjectCard cardData={projectData[0]}/>
                 <ReverseProjectCard cardData={projectData[1]}/>

@@ -29,8 +29,20 @@ function LastPage() {
   return (
     <section className="last-page" id="contact">
       <div className="contact">
-        <h3>Lets Get In Touch</h3>
-        <form className="contact-form">
+        <h3                 
+                data-aos="fade-up"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-once="true"
+                data-aos-duration="2000"
+                data-aos-easing="ease-in-out" >Lets Get In Touch</h3>
+        <form className="contact-form" 
+                        data-aos="fade-right"
+                        data-aos-offset="200"
+                        data-aos-delay="300"
+                        data-aos-once="true"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out">
           <label htmlFor="name">Name</label>
           <input type="text" id="name" name="name" required />
           <label htmlFor="email">Email</label>
@@ -48,7 +60,13 @@ function LastPage() {
           </button>
         </form>
 
-        <div className="right">
+        <div className="right" 
+                        data-aos="fade-left"
+                        data-aos-offset="200"
+                        data-aos-delay="300"
+                        data-aos-duration="1000"
+                        data-aos-once="true"
+                        data-aos-easing="ease-in-out">
           <h5><i class="fa-solid fa-phone"></i><a href="tel:607-206-4901"> 607-206-4901</a></h5>
           <h5><i class="fa-brands fa-github"></i><a href="https://github.com/mdc-dev" target='_blank' rel='noreferrer'> GitHub</a></h5>
           <h5><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/in/matthew-courtney-2854811b5/" target='_blank' rel='noreferrer'> LinkedIn</a></h5>

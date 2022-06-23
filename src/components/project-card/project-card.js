@@ -4,7 +4,13 @@ import './project-card.scss';
 const ProjectCard = (props) => {
     console.log(props)
     return (
-        <div className="card-cont">
+        <div className="card-cont"
+        data-aos="fade-left"
+        data-aos-offset="200"
+        data-aos-once="true"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out">
             <div className="title-cont">
                 <h4>Featured Project</h4>
                 <h5>{props.cardData.name}</h5>
